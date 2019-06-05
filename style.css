@@ -25,12 +25,22 @@ header div{
     width: 60%;
 }
 header img{
-    height: 100%;
-    width: auto;
+    height: 100px;
+    width: 100px;
 }
 nav{
     grid-area: Sasuke;
-    background-color: blue;
+    background-color: #fe7a35;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    color: black;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
 }
 section{
     grid-area: Sakura;
