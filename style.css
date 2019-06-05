@@ -5,11 +5,8 @@ body{
                         "Sasuke Sasuke Sasuke Sasuke"
                         "Sakura Sakura Kakashi Kakashi"
                         "Minato Minato Minato Minato";
-    grid-template-rows: 20vh 15vh 40vh 20vh;
-    grid-gap: 10px;
-    background-color: black;
-    grid-gap: 5px;
-    grid-template-columns: 25% 25% 25% 23.8%;
+    grid-template-rows: 20vh 15vh 50vh 30vh;
+    grid-template-columns: 25% 25% 25% 25%;
 }
 
 header{
@@ -44,27 +41,51 @@ nav a{
     font-family: 'Open Sans', sans-serif;
 }
 nav a:hover{
-background-color: white;
+color: white;
+font-size: 14pt;
 font-weight: bolder;
 }
 section{
     grid-area: Sakura;
-    background-color: white;
+    background-color: #083b7c;
     display: flex;
 justify-content: center;
 }
 section img{
-border-radius: 100%;
-width: 30%;
+border-radius: 60%;
+width: 40%;
 }
-section img:hover{
-    width: 320px;
-}
+
 aside{
     grid-area: Kakashi;
-    background-color: yellow;
+    background-color: #083b7c;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+aside p{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+aside p span{
+  font-style: italic;
+  color: #f67834;
 }
 footer{
-    grid-area: Minato;
-    background-color: purple;
+  grid-area: Minato;
+  background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer div{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+}
+footer div img{
+    width: 40px;
+    height: 40px;
 }
