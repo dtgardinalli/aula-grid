@@ -5,10 +5,11 @@ body{
                         "Sasuke Sasuke Sasuke Sasuke"
                         "Sakura Sakura Kakashi Kakashi"
                         "Minato Minato Minato Minato";
-    grid-template-rows: 20vh 15vh 50vh 30vh;
+    grid-template-rows: 20vh 15vh 40vh 20vh;
     grid-gap: 10px;
     background-color: black;
-    grid-gap: 
+    grid-gap: 5px;
+    grid-template-columns: 25% 25% 25% 23.8%;
 }
 
 header{
@@ -42,9 +43,22 @@ nav a{
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
 }
+nav a:hover{
+background-color: white;
+font-weight: bolder;
+}
 section{
     grid-area: Sakura;
-    background-color: green;
+    background-color: white;
+    display: flex;
+justify-content: center;
+}
+section img{
+border-radius: 100%;
+width: 30%;
+}
+section img:hover{
+    width: 320px;
 }
 aside{
     grid-area: Kakashi;
