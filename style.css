@@ -13,7 +13,20 @@ body{
 
 header{
     grid-area: Naruto;
-    background-color: red;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+header div{
+    background-color: #a5a8b1;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+header img{
+    height: 100%;
+    width: auto;
 }
 nav{
     grid-area: Sasuke;
